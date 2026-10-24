@@ -1,0 +1,20 @@
+name: coup_lan
+description: Coup board game for local multiplayer over Wi-Fi.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.24.0'
+
+# No third-party packages: networking uses dart:io only.
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
